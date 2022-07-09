@@ -27,7 +27,7 @@ function Maps() {
       console.log("Longitude is :", position.coords.longitude);
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
-      center = new google.maps.LatLng(latitude,longitude);
+      center = {lat:latitude,lng:longitude};
     });
   }
   getCurrentLocation();
