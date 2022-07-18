@@ -12,7 +12,7 @@ function Maps() {
   }, []);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyCZRca5LTDbaSaZZwe9WjTk9oGzOskIz-8",
+    googleMapsApiKey: "AIzaSyBLYAWKNXFfi-sbuvNhldYMNP6-_ql-xOo",
   });
   let center = { lat: 19.19769277027365, lng: 72.85464173102034 };
 
